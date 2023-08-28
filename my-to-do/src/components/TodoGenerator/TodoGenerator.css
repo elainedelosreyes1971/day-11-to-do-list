@@ -1,0 +1,17 @@
+.TodoGenerator {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    padding: 5px;
+    margin: 5px;
+}
