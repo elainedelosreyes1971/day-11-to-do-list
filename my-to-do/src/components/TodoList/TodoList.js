@@ -1,6 +1,6 @@
 import { useState } from "react";
 import TodoGenerator from "../TodoGenerator/TodoGenerator";
-import TodoListItem from "../TodoListItem/TodoListItem";
+import TodoGroup from "../TodoGroup/TodoGroup";
 
 const TodoList = () => {
     const [todos, setTodos] = useState([]);
@@ -13,7 +13,7 @@ const TodoList = () => {
 
     return (
         <div>
-            <TodoListItem todos={todos} />
+            <TodoGroup todos={todos} />
             <TodoGenerator onClickChange={onClickChange} />
         </div>
     )
