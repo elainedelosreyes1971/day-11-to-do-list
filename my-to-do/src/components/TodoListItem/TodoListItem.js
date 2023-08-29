@@ -1,4 +1,3 @@
-import { useState } from "react";
 import './TodoListItem.css';
 
 const TodoListItem = (props) => {
